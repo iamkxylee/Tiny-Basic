@@ -9,7 +9,7 @@
       MAXLINES% = 7000 : MAXVARS% = 26 : ATMAX% = 500 : GSTACK% = 100
       SQUOTE$ = chr$(39) : DQUOTE$ = chr$(34)
 
-      dim pgm$(MAXLINES%) : rem  program stored here
+      dim pgm$(MAXLINES%) : rem  program saved here
       dim vars%(MAXVARS%)
       dim gstackln%(GSTACK%) : rem  gosub line stack
       dim gstacktp%(GSTACK%) : rem  gosub textp stack
